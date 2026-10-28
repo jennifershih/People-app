@@ -12,12 +12,11 @@ export const routes: Routes = [
   { path: 'error', component: UncaughtErrorComponent },
   { path: 'home', component: HomeComponent, data: { text: 'Home' } },
   { path: 'my-info', component: MyInfoComponent, data: { text: 'My Info' } },
-  { path: '**', component: PageNotFoundComponent } // must always be last
+  { path: '**', component: PageNotFoundComponent }, // must always be last
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes), ErrorRoutingModule],
-  exports: [RouterModule, ErrorRoutingModule]
+  exports: [RouterModule, ErrorRoutingModule],
 })
-export class AppRoutingModule {
-}
+export class AppRoutingModule {}

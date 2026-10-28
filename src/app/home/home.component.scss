@@ -8,7 +8,7 @@
   justify-content: space-between;
   padding: 4px 16px;
   flex-wrap: wrap;
-  background-color: var(--igx-grays-200);
+  background-color: var(--ig-gray-200);
   margin: 0 0 8px;
   align-items: center;
   height: max-content;
@@ -16,13 +16,13 @@
 }
 .row-layout_1 {
   height: 144px;
-  background-color: var(--igx-primary-700);
+  background-color: var(--ig-primary-700);
   justify-content: center;
   flex-shrink: 0;
   align-items: stretch;
 }
 .row-layout_2 {
-  background-color: var(--igx-grays-100);
+  background-color: var(--ig-gray-100);
   justify-content: center;
   flex-grow: 1;
   min-height: 50px;
@@ -36,8 +36,8 @@
   margin: -32px 16px 32px 0;
   padding: 0 0 16px;
   border-width: 1px 1px 1px 1px;
-  background-color: var(--igx-surface-500);
-  border-color: var(--igx-grays-200);
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
   border-style: solid;
   flex-shrink: 0;
   align-items: stretch;
@@ -47,10 +47,10 @@
 .row-layout_3 {
   min-height: max-content;
   padding: 8px;
-  border-color: var(--igx-grays-300);
+  border-color: var(--ig-gray-300);
   border-width: 1px 0px 0px 0px;
   justify-content: center;
-  background-color: var(--igx-surface-500);
+  background-color: var(--ig-surface-500);
   border-style: solid;
   align-items: stretch;
   position: relative;
@@ -59,8 +59,8 @@
 .column-layout_1 {
   margin: -32px 0 32px;
   border-width: 1px 1px 1px 1px;
-  background-color: var(--igx-surface-500);
-  border-color: var(--igx-grays-200);
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
   flex-grow: 1;
   border-style: solid;
   flex-shrink: 0;
@@ -70,7 +70,7 @@
 }
 .row-layout_4 {
   padding: 16px;
-  background-color: var(--igx-grays-200);
+  background-color: var(--ig-gray-200);
   margin: 0 0 32px;
   height: max-content;
   flex-shrink: 0;
@@ -80,7 +80,7 @@
 }
 .column-layout_2 {
   border-width: 0px 1px 0px 0px;
-  border-color: var(--igx-grays-200);
+  border-color: var(--ig-gray-200);
   flex-grow: 1;
   border-style: solid;
   align-items: center;
@@ -115,7 +115,7 @@
   padding: 0 16px;
   border-width: 1px 0px 0px 0px;
   margin: 0 0 16px;
-  border-color: var(--igx-grays-200);
+  border-color: var(--ig-gray-200);
   border-style: solid;
   align-items: center;
   height: max-content;
@@ -132,7 +132,7 @@
   align-items: stretch;
 }
 .column-layout_4 {
-  background-color: var(--igx-surface-500);
+  background-color: var(--ig-surface-500);
 }
 .column-layout_5 {
   flex-grow: 1;
@@ -167,16 +167,16 @@
   height: 36px;
   font-size: 36px;
   margin: 0 16px 0 0;
-  color: var(--igx-surface-500);
+  color: var(--ig-surface-500);
 }
 .icon_1 {
-  color: var(--igx-primary-500);
+  color: var(--ig-primary-500);
   width: 24px;
   height: 24px;
   font-size: 24px;
 }
 .text {
-  color: var(--igx-grays-500);
+  color: var(--ig-gray-500);
   flex-shrink: 0;
   min-width: min-content;
   white-space: pre-wrap;
@@ -193,14 +193,14 @@
   height: max-content;
 }
 .title_2 {
-  color: var(--igx-surface-500);
+  color: var(--ig-surface-500);
   flex-shrink: 0;
   min-width: min-content;
   white-space: pre-wrap;
   height: max-content;
 }
 .title_3 {
-  color: var(--igx-grays-900);
+  color: var(--ig-gray-900);
   white-space: pre-wrap;
   height: max-content;
 }
@@ -208,8 +208,8 @@
   margin: 0 0 8px;
 }
 .avatar_1 {
-  color: var(--igx-grays-800);
-  background-color: var(--igx-grays-100);
+  color: var(--ig-gray-800);
+  background-color: var(--ig-gray-100);
 }
 .content_1 {
   width: max-content;
